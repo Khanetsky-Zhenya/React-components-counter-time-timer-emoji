@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.counter{
+margin: 15px;
+}
+.counter_number{
+    width: 223px;
+    padding: 65px 0;
+    background-color: rgb(221, 221, 221);
+    border: 1px solid #898a8a;
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(129, 129, 129);
+}
+.all_button{
+display: flex;
+}
+.button__plus{
+    width: 75px;
+    height: 75px;
+    background-color: green;
+    border: none;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+
+}
+.button__res{
+    width: 75px;
+    height: 75px;
+    
+    border: none;
+    
+    background-color: orange;
+    
+}
+.button__minus{
+    width: 75px;
+    height: 75px;
+    background-color:red;
+    border: none;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+.res{
+   font-size: 35px;
+   color: white;
+   font-weight: 700;
+}

@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+
+import { Counter } from "./components/Counter";
+import { Button } from "./components/Button/Button";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div style={{display:"flex"}}>
+        <Counter />
+        <Counter />
+        <Counter />
+        </div>
     </div>
   );
 }
 
 export default App;
+
+
+/*<Button
+        text={"primary"}
+        type={"primary"}
+        onClick={() => alert("Primary")}
+      />*/
