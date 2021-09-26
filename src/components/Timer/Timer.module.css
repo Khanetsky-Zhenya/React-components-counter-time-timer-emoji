@@ -22,14 +22,14 @@
   height: 75px;
   background-color: green;
   border: none;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 700;
   color: white;
 }
 .button__res {
   width: 75px;
   height: 75px;
-
+  font-size: 25px;
   border: none;
 
   background-color: orange;
@@ -39,12 +39,12 @@
   height: 75px;
   background-color: red;
   border: none;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 700;
   color: white;
 }
 .res {
-  font-size: 35px;
+  font-size: 25px;
   color: white;
   font-weight: 700;
 }

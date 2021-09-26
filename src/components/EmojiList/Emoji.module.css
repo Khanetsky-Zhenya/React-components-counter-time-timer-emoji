@@ -1,0 +1,14 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0px;
+}
+
+.item {
+  padding: 15px 15px;
+  list-style-type: none;
+  border: 1px solid coral;
+}
